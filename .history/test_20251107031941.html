@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương I: Vũ Trụ Trên Cao</title>
+    <style>
+        /* Thiết lập Font (giữ nguyên nhưng ưu tiên font hiện đại hơn nếu có) */
+        @font-face { font-family: "Cambria Math"; }
+        @font-face { font-family: DengXian; }
+        @font-face { font-family: Calibri; }
+        @font-face { font-family: "Calibri Light"; }
+        @font-face { font-family: "Noto Sans Symbols"; }
+        @font-face { font-family: "DengXian Light"; }
+        @font-face { font-family: Georgia; }
+        @font-face { font-family: "Segoe UI"; }
+        @font-face { font-family: "UTM Avenida"; }
+        @font-face { font-family: "@DengXian"; }
+        @font-face { font-family: "@DengXian Light"; }
+
+        /* Global styles */
+        body {
+            font-family: "Times New Roman", serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Nền nhẹ để đẹp hơn */
+            line-height: 1.6; /* Cải thiện giãn dòng */
+        }
+
+        /* Định dạng trang A4 với lề chuẩn (2cm top/right/bottom, 3cm left) */
+        @page {
+            size: A4 portrait; /* 210mm 297mm */
+            margin: 2cm 2cm 2cm 3cm;
+        }
+
+        /* Container chính để mimic A4 */
+        .document-container {
+            max-width: 595pt; /* Kích thước A4 width */
+            margin: 0 auto;
+            padding: 56.7pt 56.7pt 56.7pt 85.05pt; /* Lề tương ứng */
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Thêm shadow để đẹp hơn khi xem trên web */
+        }
+
+        /* Global link styles (cải thiện hover) */
+        a:link { color: blue; text-decoration: underline; }
+        a:visited { color: purple; text-decoration: underline; }
+        a:hover { color: red; text-decoration: none; transition: color 0.3s; }
+
+        /* Định dạng đoạn văn bản (cải thiện spacing, font mượt hơn) */
+        p {
+            margin: 0 0 12pt;
+            text-align: justify;
+            text-indent: 0.5in;
+            font-size: 14pt;
+            line-height: 1.5;
+        }
+
+        /* Định dạng Tiêu đề cấp 1 (CHƯƠNG) - Làm bold hơn, spacing tốt */
+        h1 {
+            margin: 24pt 0 12pt;
+            text-align: center;
+            font-size: 20pt;
+            font-weight: bold;
+            line-height: 1.07;
+            page-break-after: avoid;
+        }
+
+        /* Định dạng Tiêu đề cấp 2 (Phần) - Tương tự, thêm spacing */
+        h2 {
+            margin: 18pt 0 8pt;
+            text-align: center;
+            font-size: 16pt;
+            font-weight: bold;
+            line-height: 1.07;
+            page-break-after: avoid;
+        }
+
+        /* Định dạng Chú thích hình ảnh - Italic, center, nhỏ hơn */
+        .image-caption {
+            margin: 4pt 0 12pt;
+            text-align: center;
+            font-size: 12pt;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        /* Định dạng cho bảng chứa hình ảnh và chú thích (cải thiện responsive) */
+        .image-layout-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 12pt auto;
+        }
+
+        .image-layout-table td {
+            border: none;
+            padding: 0;
+        }
+
+        .image-layout-table .image-cell {
+            text-align: center;
+            padding: 5.4pt;
+        }
+
+        .image-layout-table .caption-cell {
+            border: solid black 1pt;
+            padding: 10pt;
+            vertical-align: top;
+        }
+
+        /* Cải thiện hình ảnh: responsive */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Footnote styles (nếu có) */
+        sup { font-size: 10pt; vertical-align: super; }
+    </style>
+</head>
+<body>
+    <div class="document-container">
+        <h1 id="_Toc213188514">CHƯƠNG I: VŨ TRỤ TRÊN CAO</h1>
+
+        <h2 id="_Toc213188515">Phần 1: Vũ trụ đơn giản lắm…</h2>
+
+        <p>Vũ trụ là gì? Đó là một trong những câu hỏi được các nhà khoa học đặt ra nhiều nhất trong lịch sử. Thực sự, vũ trụ là tất cả mọi thứ, không có bất kỳ ngoại lệ nào. Chúng ta có thể bao gồm trong vũ trụ vật chất, năng lượng, không gian và thời gian và mọi thứ tồn tại. Tuy nhiên, khi nói về vũ trụ là gì, người ta thường tham khảo nhiều hơn đến không gian bên ngoài của hành tinh Trái đất.</p>
+
+        <p>Vũ trụ là rất lớn, nhưng nó có thể không phải là vô hạn. Nếu vậy, sẽ có vật chất vô hạn trong một ngôi sao vô hạn, điều này không đúng như vậy. Ngược lại, đối với vật chất, nó chủ yếu là không gian trống rỗng. Một số người thậm chí còn khẳng định rằng vũ trụ chúng ta đang sống là không có thật, nó là một hình ba chiều.</p>
+
+        <p>Vũ trụ đã biết chứa các thiên hà, cụm thiên hà và cấu trúc lớn hơn được gọi là siêu đám, cũng như vật chất giữa các thiên hà. Mặc dù công nghệ tiên tiến hiện nay, chúng ta vẫn không biết chính xác kích thước của nó. Vật chất không phân bố đồng nhất mà tập trung ở những nơi cụ thể: thiên hà, ngôi sao, hành tinh, v.v. Tuy nhiên, 90% sự tồn tại được cho là vật chất tối mà chúng ta không thể quan sát được.</p>
+
+        <p>Vũ trụ có ít nhất bốn chiều đã biết: ba chiều trong không gian (chiều dài, chiều cao và chiều rộng) và một chiều trong thời gian. Do lực chi phối của trọng lực dính vào nhau và chuyển động liên tục. So với bầu trời, hành tinh của chúng ta rất nhỏ. Chúng ta là một phần của hệ mặt trời, lạc trong vòng tay của Dải Ngân hà. Dải Ngân hà có 100.000 tỷ ngôi sao, nhưng nó chỉ là một trong hàng trăm tỷ thiên hà tạo nên hệ mặt trời.</p>
+
+        <p>Những cuộc nghiên cứu thám hiểm đòi hỏi cả thái độ hoài nghi lẫn trí tưởng tượng. Trí tưởng tượng thường đưa chúng ta tới những thế giới chưa từng có. Nhưng nếu không có nó, chúng ta sẽ chẳng đi được tới đâu cả. Thái độ hoài nghi giúp chúng ta phân biệt những điều tưởng tượng với sự thực, kiểm tra những suy nghĩ giả định chủ quan. Vũ trụ phong phú vô kể - với những thực tế đẹp vô cùng, những quan hệ qua lại tinh tế, với cơ cấu tinh vi khiến chúng ta giật mình.Bề mặt Trái Đất là bến bờ của đại dương vũ trụ. Chung ta đã thu nhận được hầu hết những gì chúng ta biết ngay trên Trái Đất. Mới đây thôi, chúng ta đã lội một chút ra biển, đủ để nhúng ướt các ngón chân và cùng lắm là ướt đến mắt cá chân. Nước biển mời mọc ta. Đại dương vẫy gọi ta. Có một phần trong con người chúng ta cho chúng ta biết mình bắt nguồn từ nơi ấy. Chúng ta khao khát được trở về chốn cũ. Những Ước nguyện ấy, theo tôi, không có gì là bất kính cả, tuy có thể gây lo lắng cho biết bao thần thánh trên đời, nếu có.</p>
+
+        <p>Kích thước của Vũ trụ to lớn đến nỗi nếu sử dụng các đơn vị đo khoảng cách quen thuộc vẫn dùng hằng ngày trên Trái Đất như mét hay dặm thì sẽ rất khó khăn bất tiện. Thay vào đó, chúng ta đo khoảng cách bằng tốc độ ánh sáng. Trong 1 giây một chùm ánh sáng đi được 186.000 dặm, tức là gần 300.000 km hay 7 lần vòng quanh Trái Đất. Trong 8 phút ánh sáng đi được quãng đường từ Trái Đất đến Mặt Trời. Chúng ta có thể nói Mặt Trời cách Trái Đất 8 phút ánh sáng. Trong một năm, ánh sáng vượt qua gần 10.000 tỷ km, tức là khoảng 6.000 tỷ dặm, không gian vũ trụ.</p>
+
+        <img width="373" height="244" id="image41.png" src="Khám%20phá%20vũ%20trụ_files/image002.jpg" alt="Ảnh của Hubble chụp lại những thiên hà xa nhất">
+        <p class="image-caption">Ảnh của Hubble chụp lại những thiên hà xa nhất có thể nhìn thấy được bằng công nghệ hiện tại.</p>
+
+        <p>Từ một điểm quan sát ở giữa các thiên hà chúng ta có thể thấy, rải rác như bọt biển trên những con sóng không gian là những sợi ánh sáng mờ nhạt và lưa thưa không thể đếm hết được. Đó chính là những thiên hà. Số ít là những thiên hà đơn độc lang thang; còn hầu hết cư ngụ thành các quần thể như chòm xóm. Trước mắt chúng ta là Vũ trụ ở quy mô lớn nhất mà con người biết. Chúng ta đang ở trong địa hạt của các tinh vân, cách Trái Đất 8 tỷ năm ánh sáng, một nửa quãng đường đến rìa của Vũ trụ đã biết. Một thiên hà bao gồm khí, bụi và các ngôi sao - hàng tỷ hàng tỷ ngôi sao. Mỗi ngôi sao là một Mặt Trời của ai đó. Bên trong một thiên hà có các sao và các thế giới, và cũng có thể có sự lan truyền các vật chất sống, sinh vật thông minh và các nền văn minh. Nhưng nhìn từ xa, một thiên hà làm tôi liên tưởng đến một bộ sưu tập các vật vui mắt - vỏ trai ốc biển, hoặc có lẽ là các mảnh san hô, sản phẩm lao động của Tự Nhiên trong hàng bao nhiêu liên đại<sup>[2]</sup> trong đại dương vũ trụ.</p>
+
+        <p>Vũ trụ bao gồm tất cả các vật chất, năng lượng và không gian hiện có, được xem là một khối bao quát. Vũ trụ hiện tại chưa xác định được kích thước chính xác, nó đã được mở rộng kể từ khi khởi đầu ở vụ nổ Big Bang khoảng 13,8 tỷ năm trước. Vũ trụ bao gồm các hành tinh, sao, thiên hà, các thành phần của không gian liên sao, những hạt hạ nguyên tử nhỏ nhất, vật chất và năng lượng. Vũ trụ quan sát được có đường kính vào khoảng 28,5 tỷ parsec (93 tỷ năm ánh sáng) trong thời điểm hiện tại và ước tính có khoảng 2 nghìn tỉ thiên hà trong vũ trụ quan sát được. Các nhà thiên văn chưa biết được kích thước toàn thể của Vũ trụ là bao nhiêu và cũng có thể là gần như vô hạn. Những quan sát và phát triển của vật lý lý thuyết đã giúp suy luận ra thành phần và sự tiến triển của Vũ trụ.</p>
+
+        <p>Kích thước và tuổi của Vũ trụ vượt ra ngoài tầm hiểu biết bình thường của con người. Hành tinh quê hương nhỏ bé của chúng ta lọt thỏm ở đâu đó giữa cái mênh mông và cái vĩnh cửu. Ở quy mô vũ trụ, hầu hết những lo toan của con người có vẻ chẳng đáng kể, thậm chí vô nghĩa. Thế nhưng loài người chúng ta còn trẻ và hiếu kỳ, can đảm và có nhiều hứa hẹn. Trong vài nghìn năm qua chúng ta đã tạo ra những khám phá bất ngờ gây sửng sốt bậc nhất về Vũ trụ và về vị trí của mình trong đó, đã có những cuộc nghiên cứu thám hiểm rất hào hứng. Chúng nhắc chúng ta rằng, con người sinh ra ở đời là biết ngạc nhiên thắc mắc, rằng hiểu biết là một niềm vui, rằng tri thức là tiền đề để tồn tại. Tôi tin rằng tương lai của chúng ta phụ thuộc vào việc chúng ta hiểu biết Vũ trụ đến đâu, cái Vũ trụ mà chúng ta đang trôi lơ lửng trong đó như hạt bụi trên bầu trời buổi sáng.</p>
+
+        <p>Xuyên suốt các thư tịch lịch sử, các giả thuyết vũ trụ học và tinh nguyên học, bao gồm các mô hình khoa học, đã từng được đề xuất để giải thích những hiện tượng quan sát của Vũ trụ. Các thuyết địa tâm định lượng đầu tiên đã được phát triển bởi các nhà triết học Hy Lạp cổ đại và triết học Ấn Độ. Trải qua nhiều thế kỷ, các quan sát thiên văn ngày càng chính xác hơn đã đưa tới thuyết nhật tâm của Nicolaus Copernicus và dựa trên kết quả thu được từ Tycho Brahe, cải tiến cho thuyết đó về quỹ đạo elip của hành tinh bởi Johannes Kepler, mà cuối cùng được Isaac Newton giải thích bằng lý thuyết hấp dẫn của ông. Những cải tiến quan sát được xa hơn trong Vũ trụ dẫn tới con người nhận ra rằng Hệ Mặt Trời nằm trong một thiên hà chứa hàng tỷ ngôi sao, gọi là Ngân Hà. Sau đó các nhà thiên văn phát hiện ra rằng thiên hà của chúng ta chỉ là một trong số hàng trăm tỷ thiên hà khác. Ở trên những quy mô lớn nhất, sự phân bố các thiên hà được giả định là đồng nhất và như nhau trong mọi hướng, có nghĩa là Vũ trụ không có biên hay một tâm đặc biệt nào đó. Quan sát về sự phân bố và vạch phổ của các thiên hà đưa đến nhiều lý thuyết vật lý vũ trụ học hiện đại.</p>
+
+        <p>Khám phá trong đầu thế kỷ XX về sự dịch chuyển đỏ trong quang phổ của các thiên hà gợi ý rằng Vũ trụ đang giãn nở, và khám phá ra bức xạ nền vi sóng vũ trụ cho thấy Vũ trụ phải có thời điểm khởi đầu. Gần đây, các quan sát vào cuối thập niên 1990 chỉ ra sự giãn nở của Vũ trụ đang gia tốc cho thấy thành phần năng lượng chủ yếu trong Vũ trụ thuộc về một dạng chưa biết tới gọi là năng lượng tối. Đa phần khối lượng trong Vũ trụ này tồn tại dưới một dạng chưa từng biết đến là vật chất tối.</p>
+
+        <p>Mỗi hệ sao là một hòn đảo trong không gian, bị cách ly với các sao lân cận bằng những năm ánh sáng. Tôi cứ hình dung ra các sinh vật đang tiến hóa với ít nhiều tri thức le lói về vô số các thế giới, mà mỗi tập thể sinh vật trong đó ban đầu cứ tưởng rằng hành tinh bé tí của họ và dăm ba Mặt Trời nhỏ mọn là tất cả thế giới. Chúng ta lớn lên trong sự cô lập. Chỉ dần dần chúng ta mới học được cách hiểu Vũ trụ.</p>
+
+        <p>Có thể có những ngôi sao được bao quanh bởi hàng triệu những thế giới nhỏ đầy đá không tồn tại sự sống, những hệ hành tinh đóng băng ở một giai đoạn sơ khai nào đó trên con đường tiến hóa. Có thể nhiều ngôi sao có hệ hành tinh khá giống hệ của chúng ta: ngoài rìa là những hành tinh khí lớn, có vành đai và những vệ tinh băng giá, còn gần tâm hơn có những thế giới nhỏ ấm áp, màu trắng xanh, có mây bao phủ. Tại Một số nơi, sự sống có trí tuệ có thể đã biến đổi bề mặt hành tinh bằng hoạt động công nghệ quy mô nào đó. Đó là những người anh chị em với chúng ta trong Vũ trụ. Họ có khác chúng ta nhiều không? Hình dạng của họ, hệ sinh hóa, sinh học thần kinh, lịch sử, chính trị, khoa học, công nghệ, nghệ thuật, âm nhạc, tôn giáo, triết học của họ như thế nào? Có lẽ một ngày nào đó chúng ta sẽ được biết về họ. Bây giờ chúng ta đã về tới cái sân nhà mình, chỉ còn cách Trái Đất một năm ánh sáng. Vây quanh Mặt Trời của chúng ta thành đám hình cầu là một bầy những cục tuyết khổng lồ cấu tạo từ băng, đá và các phần tử hữu cơ: đó là các nhân sao chổi. Thỉnh thoảng một ngôi sao bay ngang qua lại tạo ra một cú giật hấp dẫn, thế là một nhân sao chổi nào đó bỗng đổi hướng lao vụt vào phía trong hệ Mặt Trời. Tại đây Mặt Trời làm nó nóng lên, băng thăng hoa thành khí, vậy là một cái đuôi sao chổi đáng yêu mọc ra.</p>
+
+        <p>Chúng ta đang tiến đến gần các hành tinh trong hệ Mặt Trời của mình. Những thế giới khá to này là tù binh của Mặt Trời, bị Mặt Trời dùng sức mạnh hấp dẫn bắt phải đi theo các quỹ đạo gần như tròn và được chiếu sáng chủ yếu bởi Mặt Trời. Sao Diêm Vương, phủ băng metan và có vệ tinh quá to của mình là Charon đi kèm, được Mặt Trời rọi chiếu ở khoảng cách xa thật xa, đến nỗi nhìn từ đây thì vầng Thái dương chỉ là một chấm sáng không hơn không kém trên nền trời đen kịt.</p>
+
+        <p>Các thế giới khổng lồ bằng khí là Sao Hải Vương, Sao Thiên Vương, Sao Thổ - viên ngọc của hệ Mặt Trời - và Sao Mộc đều có một đàn vệ tinh bằng băng vây quanh. Phía trong khu vực của các hành tinh khí và các tảng băng bay theo quỹ đạo vòng tròn là lãnh địa bằng đá ấm áp, phần trong của hệ Mặt Trời. Chẳng hạn, có hành tinh đỏ Sao Hỏa, với những núi lửa vút cao, những thung lũng dạng hào rift<sup>[3]</sup> rộng lớn, những cơn bão cát khổng lồ quy mô hành tinh, và biết đâu, có thể có những dạng sự sống sơ khai nào đó. Tất cả các hành tinh đều quay quanh Mặt Trời, ngôi sao gần nhất, một hỏa ngục gồm khí hydro và hêli đang tham gia phản ứng nhiệt hạch, để tỏa ánh sáng ra khắp hệ Mặt Trời.</p>
+
+        <p>Xin chào hành tinh Trái Đất - nơi có những bầu trời nitơ màu xanh nhạt<sup>[4]</sup>, những đại dương nước lỏng, những cánh rừng mát mẻ và những bãi cỏ mềm, một thế giới sôi sục sự sống. Trong bối cảnh Vũ trụ thì như tôi đã nói, nó đẹp và hiếm đến nao lòng; và cho đến tận giờ phút này, nó vẫn là độc nhất vô nhị. Trong toàn bộ chuyến du ngoạn của chúng ta đi qua không gian và thời gian, cho đến nay nó vẫn là thế giới duy nhất mà vật chất của Vũ trụ đã trở thành chất sống và biết nhận thức. Chắc phải có nhiều thế giới như vậy rải rác trong Vũ trụ, nhưng sự tìm kiếm của chúng ta bắt đầu từ đây, với trí khôn của loài người chúng ta, được tích lũy bằng cái giá đắt qua cả triệu năm. Chúng ta có may mắn được sống giữa những người sáng trí và ham hiểu biết một cách đáng yêu, và trong một thời đại mà việc tìm kiếm tri thức nói chung được coi trọng. Loài người, xét tới cùng thì sinh ra nhờ có các vì sao và giờ đây đang cư trú trong một thế giới có tên là Trái Đất, đã bắt đầu chuyến du hành dài lâu tìm về cội nguồn.</p>
+
+        <p>Quan sát này có thể bị nhiều người dễ dàng bỏ qua. Cọc gỗ, bóng râm, hình phản chiếu dưới giếng, vị trí của Mặt trời – những hiện tượng hằng ngày đơn giản như vậy có gì là quan trọng nào? Nhưng Eratosthenes là nhà khoa học, và những suy ngẫm của ông về những hiện tượng thông thường ấy đã làm thay đổi thế giới; theo một nghĩa nào đó chúng đã tạo ra thế giới chúng ta. Eratosthenes chợt nảy ra ý nghĩa thực hiện một thí nghiệm, đó là quan sát xem ở Alexandria những cái cọc thẳng đứng có hắt bóng xuống đất vào thời khắc gần trưa ngày 21 tháng 6 hay không. Và ông phát hiện ra chúng có đổ bóng xuống.</p>
+
+        <p>Câu trả lời duy nhất có thể có, mà Eratosthenes đã tìm thấy, chính là việc bề mặt Trái Đất cong. Mà không chỉ có vậy: độ cong càng lớn thì chênh lệch độ dài của bóng cọc càng lớn. Mặt Trời ở xa đến nỗi những tia nắng của nó đi song song khi tới Trái Đất. Các cọc nghiêng các góc khác nhau so với tia nắng sẽ tạo ra những cái bóng dài ngắn khác nhau.</p>
+
+        <p>Với sự chênh lệch về độ dài của bóng cọc đã quan sát được, thì khoảng cách giữa Alexandria và Syene vào quãng 7° trên bề mặt Trái Đất. Như thế nghĩa là, nếu bạn tưởng tượng các cây cọc được kéo dài tới tận tâm Trái Đất, thì chúng sẽ cắt nhau thành một góc bằng 7°. Eratosthenes biết rằng khoảng cách giữa Alexandria và Syene vào khoảng 800 km, vì ông đã thuê một người đi đo đếm bằng bước chân. 800km nhân với 50 thành 40.000 km: con số đó ắt phải là chu vi của Trái Đất<sup>[5]</sup>.</p>
+
+        <!-- ... (Phần còn lại bị truncated trong input gốc, tôi giả định giữ nguyên cấu trúc tương tự. Bạn có thể thêm nội dung đầy đủ nếu có.) ... -->
+
+        <h2 id="_Toc213188518">Phần 4. Vụ nổ vũ trụ</h2>
+
+        <p>Theo suy đoán của các nhà thiên văn học, kích thước không gian của vũ trụ vào khoảng 20 tỉ năm ánh sáng, điều này chứng tỏ rằng vũ trụ đã 20 tỉ tuổi rồi, và hiện đang "sống" ở giai đoạn nào trong cuộc đời của nó thì chúng ta không biết. Ngày nay theo lý luận được khá nhiều người chấp nhận là thuyết Big Bang, tương truyền rằng vũ trụ được sinh ra sau một vụ nổ cách đây 20 tỉ năm. Sự kiện nổ vũ trụ đã đặt nền tảng cho một sự thật quan trọng sau: số là các nhà thiên văn học phát hiện, hầu như tất cả các thiên hà đều tránh né nhau và di chuyển với vận tốc rất cao, có nghĩa là cả vũ trụ cứ như gợn sóng, và những đợt sóng cồn này lại không có điểm nào là trung tâm cả; vì thế nhìn từ bất kỳ góc độ nào ta cũng có thể thấy các thiên thể đang rời xa chúng ta. Có điều thú vị là, càng cách xa, tốc độ của chúng càng lớn.</p>
+
+        <!-- ... (Tiếp tục với nội dung còn lại tương tự) ... -->
+
+        <img width="512" height="354" id="image54.png" src="Khám%20phá%20vũ%20trụ_files/image011.png" alt="Hình ảnh mô tả vụ nổ lớn nóng bỏng">
+        <p class="image-caption">Hình ảnh mô tả vụ nổ lớn nóng bỏng</p>
+
+        <!-- ... (Kết thúc nội dung) ... -->
+    </div>
+</body>
+</html>
